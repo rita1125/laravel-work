@@ -1,0 +1,82 @@
+.bodyBg{
+    background: #f2f2f2;
+}
+.container {
+    max-width: 768px !important;
+}
+.searchItem{
+    width: 85px;
+}
+.sortItem{
+    width: 110px;
+}
+.btn-custom-1{
+    background-color: #5eb483;
+    border-color: #5eb483;
+    color: #ffffff;
+  }
+.btn-custom-1:hover{
+    background-color: #3b7f59;
+    border-color: #3b7f59;
+    color: #ffffff; 
+}
+.btn-custom-edit,
+.btn-custom-OK{
+    background-color: #5291cb;
+    border-color: #5291cb;
+    color: #ffffff;
+  }
+.btn-custom-edit:hover,
+.btn-custom-OK:hover{
+    background-color: #33628d;
+    border-color: #33628d;
+    color: #ffffff; 
+}
+.btn-custom-del{
+    background-color: #bb5e61;
+    border-color: #bb5e61;
+    color: #ffffff;
+  }
+.btn-custom-del:hover{
+    background-color: #7f3133;
+    border-color: #7f3133;
+    color: #ffffff; 
+}
+.btn-custom-active{
+    background-color: #5c5c5c;
+    border-color: #5c5c5c;
+    color: #ffffff;
+  }
+.btn-custom-active:hover{
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff; 
+}
+.notActive{
+    background: #dadada;
+    color: #a3a3a3;
+}
+.notActive .btn-custom-edit,
+.notActive .btn-custom-del,
+.notActive .btn-custom-active{
+    background-color: #8d8d8d;
+    border-color: #8d8d8d;
+    color: #ffffff; 
+}
+
+#normalDialog .modal-header,
+#normalDialog .modal-footer,
+#confirmDialog .modal-header,
+#confirmDialog .modal-footer{
+    border: none;
+}
+#normalDialog .modal-content,
+#confirmDialog .modal-content{
+    background-color: #f0f0f0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+#normalDialog .modal-body,
+#confirmDialog .modal-body{
+    text-align: center;
+}
